@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #bbe1f0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuWrap {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 30%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* body */
+
+.body {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.travelGoWrap {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftListWrap {
+    height: 90%;
+    width: 63%;
+    background-color: aqua;
+}
+
+.rightListWrap {
+    width: 35%;
+    height: 90%;
+    background-color: #48629D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.rightListWrap>p {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.dateWrap {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.dateWrap li {
+    width: 20%;
+    margin: 1%;
+    padding: 1% 3%;
+    border: 1px solid #bbe1f0;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+#selected {
+    background-color: #bbe1f0;
+    color: #48629D;
+}
+
+.scheduleWrap {
+    flex: 1;
+    width: 100%;
+}
+
+.scheduleBox {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 5%;
+    margin: 10px auto;
+}
+
+.timeWrap {
+    width: 20%;
+}
+
+.timeWrap input {
+    width: 100%;
+    padding: 3%;
+}
+.todo {
+
+}
+.checkBox {
+
+}
+
+.editBtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalHours {
+    font-size: 20px;
+    color: #fff;
+}
+
+.delete {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #8a8a8a;
+}
+
+
+/* footer */
+
+footer {
+    height: 200px;
+    background-color: #bbe1f0;
+    /* margin-top: 100px; */
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    font-style: italic;
+}
